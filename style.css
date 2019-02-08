@@ -2,21 +2,16 @@ html,
 body {
     margin: 0;
     padding: 0;
-
     color: white;
-
     background-color: #2c3e50;
 }
 
 header.page-header {
     position: relative;
     z-index: 5;
-
     min-height: 20px;
     padding: 20px;
-
     color: white;
-
     background-image:
             linear-gradient(45deg, #34495e 25%, transparent 25%),
             linear-gradient(-45deg, #34495e 25%, transparent 25%),
@@ -31,16 +26,12 @@ header.page-header {
     position: absolute;
     top: 3px;
     left: 20px;
-
     margin: 0;
 }
 
-
 .main-menu ul {
-    margin: 0;
-    margin-left: 130px;
+    margin: 0 0 0 130px;
     padding: 0;
-
     list-style: none;
 }
 
@@ -57,14 +48,11 @@ header.page-header {
 main {
     min-height: 200px;
     padding-top: 50px;
-
     color: black;
-
     background-color: white;
 }
 main::after {
     content: "";
-
     display: table;
     clear: both;
 }
@@ -73,7 +61,6 @@ main::after {
     min-height: 100px;
     margin: 0 20px;
     padding: 10px;
-
     background-color: rgba(241, 196, 15, 0.1);
     border-radius: 5px;
     box-shadow: 0 0 3px #cccccc;
@@ -83,7 +70,6 @@ main::after {
     min-height: 50px;
     margin: 20px 0;
     padding: 20px;
-
     background-color: #f5f5f5;
     box-shadow: 0 0 5px #cccccc;
 }
@@ -93,7 +79,6 @@ form {
     width: 450px;
     margin: 0 auto;
     padding: 20px;
-
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px #cccccc;
@@ -102,7 +87,6 @@ form {
 fieldset {
     margin-bottom: 15px;
     padding: 10px;
-
     border: 1px solid #34495e;
     border-radius: 5px;
 }
@@ -116,7 +100,6 @@ label {
     margin-bottom: 5px;
 }
 
-
 input,
 select,
 output,
@@ -124,9 +107,7 @@ textarea {
     width: 95%;
     margin: 0 0 10px 0;
     padding: 2px 5px;
-
     vertical-align: middle;
-
     border: 1px solid #cccccc;
     border-radius: 5px;
 }
@@ -141,7 +122,6 @@ output {
     width: 30px;
     height: 20px;
     margin: 0 5px 10px 0;
-
     text-align: center;
 }
 
@@ -156,9 +136,7 @@ input[type="reset"] {
     height: auto;
     margin: 0 5px;
     padding: 6px 15px;
-
     color: #ffffff;
-
     background-color: #2c3e50;
     border: none;
     border-radius: 5px;
@@ -223,10 +201,8 @@ h2, h3, h4 {
 footer.page-footer {
     min-height: 50px;
     padding: 20px;
-
     font-size: 14px;
     color: black;
-
     background-color: mediumseagreen;
     background-image:
             linear-gradient(45deg, transparent 50%, white 50%),
@@ -240,7 +216,6 @@ footer.page-footer {
 
 .page-footer::after {
     content: "";
-
     display: table;
     clear: both;
 }
@@ -251,9 +226,7 @@ footer.page-footer {
 
 .page-footer .info img {
     margin-right: 0.5em;
-
     vertical-align: middle;
-
     border: 2px solid aquamarine;
     box-shadow: 0 0 4px #c0392b;
     transform: rotate(-5deg);
@@ -262,7 +235,6 @@ footer.page-footer {
 .page-footer .copyright {
     float: right;
     padding-top: 20px;
-
     font-size: 12px;
 }
 
