@@ -51,7 +51,8 @@ main {
     color: black;
     background-color: white;
 }
-main::after {
+
+main:after {
     content: "";
     display: table;
     clear: both;
@@ -73,7 +74,6 @@ main::after {
     background-color: #f5f5f5;
     box-shadow: 0 0 5px #cccccc;
 }
-
 
 form {
     width: 450px;
@@ -185,7 +185,6 @@ input[disabled] {
 
 .buttons {
     margin-top: 10px;
-
     text-align: center;
 }
 
